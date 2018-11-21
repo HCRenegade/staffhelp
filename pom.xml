@@ -16,7 +16,6 @@
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
         <defaultGoal>clean install</defaultGoal>
-        <directory>C:\Users\Antonio_2\Desktop\spigot debug\plugins</directory>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
