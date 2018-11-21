@@ -1,0 +1,20 @@
+#the command to execute when a staffplayer's name is clicked.
+#variables:
+#%playername% - the clicked staffplayer name.
+on-click-command: "msg %playername% Help"
+
+#the menu to display when staffhelp is used.
+#variables:
+#%staffplayers% - prints every player who has "staffhelp.staffplayer" permission.
+list-message:
+  - '&a&m-------------------------------------------------'
+  - '                              &cOnline staff'
+  - ' '
+  - '%staffplayers%'
+  - ' '
+  - '&a&m-------------------------------------------------'
+
+messages:
+  #variables:
+  #%player% - The player who executed this command.
+  no-permissions: "&cSorry %player% you don't have permissions to do that."

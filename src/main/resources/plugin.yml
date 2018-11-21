@@ -1,0 +1,10 @@
+name: StaffHelp
+main: me.renegade.staffhelp.StaffHelp
+author: ${project.developer.name}
+version: ${project.version}
+commands:
+  staffhelp:
+    description: Main StaffHelp command.
+    usage: /staffhelp
+    aliases:
+      - stafflist
