@@ -20,7 +20,8 @@ StaffHelp is a simple plugin for spigot servers, that allows you to easily show 
 
 
 ## Support
+![Discord](https://img.shields.io/discord/498923118413479937.svg?logo=discord&style=flat)
 ---
 __If you need help/find any bugs you can:__
 - Open an issue here on GitHub
-- Write me on this [Discord](https://discord.gg/sm6CQvy)
+- Write me on  the Discord Above
