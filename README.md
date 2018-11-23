@@ -1,10 +1,12 @@
 # StaffHelp
 
+[![CodeFactor](https://www.codefactor.io/repository/github/hcrenegade/staffhelp/badge)](https://www.codefactor.io/repository/github/hcrenegade/staffhelp)
+
 ---
 
 StaffHelp is a simple plugin for spigot servers, that allows you to easily show your players how many staff players are online and who they are.
 
-## Commands:
+## Commands
 ---
 ```
 /staffhelp: This commands shows the actual staff list. 
