@@ -2,14 +2,12 @@ package me.renegade.staffhelp.commands;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Iterator;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
 import me.renegade.staffhelp.StaffHelp;
-import org.bukkit.entity.Player;
 
 public class Command implements CommandExecutor
 {

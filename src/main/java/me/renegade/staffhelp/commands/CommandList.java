@@ -38,7 +38,7 @@ public class CommandList extends SubCommand
             return;
         }
         Player player = (Player)sender;
-        ArrayList<Player> staffPlayers = new ArrayList();
+        ArrayList<Player> staffPlayers = new ArrayList<>();
         for (Player p : Bukkit.getOnlinePlayers()) {
             if (p.hasPermission("staffhelp.staffplayer")) {
                 staffPlayers.add(p);
@@ -51,7 +51,7 @@ public class CommandList extends SubCommand
                     String cmd = StaffHelp.getInstance().getConfig().getString("on-click-command").replace("%playername%", p.getName());
                     TextComponent staffPlayer = new TextComponent("§7- §6" + p.getName());
                     staffPlayer.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new ComponentBuilder(cmd).color(ChatColor.GOLD).create()));
-                    staffPlayer.setClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, StringUtils.replace(cmd, "%playername%", p.getName())));
+                    staffPlayer.setClickEvent(new ClickEvent(ClickEvent.Action.SUGGEST_COMMAND, StringUtils.replace(cmd, "%playername%", p.getName())));
                     p.spigot().sendMessage(staffPlayer);
                 }
             } else {
