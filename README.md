@@ -2,8 +2,8 @@
   StaffHelp<br />
   <img src="https://www.codefactor.io/repository/github/xrenegade100/staffhelp/badge">
   <a href="https://discord.gg/sm6CQvy"><img src="https://img.shields.io/discord/498923118413479937.svg?logo=discord&style=flat"></a>
+  <img src="https://github.com/xrenegade100/staffhelp/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master">
 </h1>
----
 
 StaffHelp is a simple plugin for spigot servers, that allows you to easily show your players how many staff players are online and who they are.
 
